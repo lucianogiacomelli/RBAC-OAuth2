@@ -23,4 +23,6 @@ public class Usuario extends Base{
     private String nombre;
     @Column(nullable = false)
     private String apellido;
+    @Column(nullable = false)
+    private Roles rol;
 }
